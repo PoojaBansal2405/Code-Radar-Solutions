@@ -4,15 +4,15 @@
 
 int main() {
     int a, b, c;
-    scanf("%d %d %d",&a ,&bn,&c);
-    if(a>b && a>c){
-        printf(a);
+    scanf("%d %d %d",&a ,&b,&c);
+    if(a>=b && a>=c){
+        printf("%d\n",a);
     }
-    else if(b>a && b>c){
-        printf(b);
+    else if(b>=a && b>=c){
+        printf("%d\n",b);
     }
     else{
-        printf(c);
+        printf("%d\n",c);
     }
     return 0;
 }
