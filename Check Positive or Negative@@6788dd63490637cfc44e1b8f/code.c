@@ -12,6 +12,7 @@ else if (number<0){
 }
 else{
     printf("Zero");
+}
 return 0;
 
 
