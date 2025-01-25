@@ -6,7 +6,7 @@ scanf("%f %f %f",&a,&b,&c);
 if(a+b>c && b+c>a && c+a>b){
     printf("Valid");
 }
-else if{
+else{
     printf("Invalid");
 }
 return 0;
