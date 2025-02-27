@@ -3,8 +3,13 @@ int main(){
     int N;
     scanf("%d",&N);
     for (int i=1;i<=N;i++){
-        for (int j=N+1-i; j<=N ;j++){
+        for (int j=1; j<=N ;j++){
+             if (j>=N+1-i && j<=N){
              printf("* ");
+             }
+             else{
+                printf(" ");
+             }
 
         }
         printf("\n");
