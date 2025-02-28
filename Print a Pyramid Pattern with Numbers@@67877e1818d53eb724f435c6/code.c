@@ -5,7 +5,7 @@ int main(){
     for (int i=1; i<=N; i++){
         for (int j=1 ;j<=(2*N)-1; j++){
             if(j==N+i-1){
-                printf("%d ", j);
+                printf("%d ", i);
             }
         }
             printf("\n");
