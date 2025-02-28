@@ -4,11 +4,13 @@ int main(){
     scanf("%d",&N);
     for (int i=1; i<=N; i++){
         for (int j=1 ;j<=(2*N)-1; j++){
-            if(j==N+i-1||j==N-(i-1)){
+            for(j=N-(i-1);j<=N+i-1;j+=2){
+                if(true){
                 printf("%d ", i);
-            }
+                }
             else{
                 printf(" ");
+            }
             }
         }
             printf("\n");
