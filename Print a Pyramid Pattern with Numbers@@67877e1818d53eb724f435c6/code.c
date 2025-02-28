@@ -7,6 +7,9 @@ int main(){
             if(j==N+i-1){
                 printf("%d ", i);
             }
+            else{
+                printf(" ");
+            }
         }
             printf("\n");
         
