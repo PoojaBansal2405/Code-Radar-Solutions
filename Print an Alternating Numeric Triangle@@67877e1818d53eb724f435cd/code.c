@@ -10,5 +10,6 @@ int main(){
         else{
             printf("%d",'1');
         }
+    }
     };
 }
