@@ -7,7 +7,9 @@ int main(){
             for (int k=n-(i-1);k=n+(i-1);n+=2){
                 printf("%d",j);
             }
+            
         }
+        printf("\n");
     }
 
 }
