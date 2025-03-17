@@ -7,10 +7,12 @@ int main(){
             if(i%2 !=0 && j%2==0){
              printf("%d",0);
             }
-            else if(i%2==0 && j%2!=0)
+            else if(i%2==0 && j%2!=0){
+
              printf("%d",1);
             }
     }
     printf("\n");
-    };
+};
+    
 }
