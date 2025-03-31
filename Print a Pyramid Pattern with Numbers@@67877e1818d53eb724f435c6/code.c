@@ -8,9 +8,9 @@ int main(){
                 printf("%d ", i);
     
                 }
-            if(j!=N-(i-1)||j!=N+i-1){
-                printf(" ");
-            }
+            // if(j!=N-(i-1)||j!=N+i-1){
+            //     printf(" ");
+            // }
         }
     
         
