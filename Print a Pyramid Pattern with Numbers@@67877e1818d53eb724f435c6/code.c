@@ -1,22 +1,15 @@
 #include<stdio.h>
 int main(){
-    int N;
-    scanf("%d",&N);
-    for (int i=1; i<=N; i++){
-        for (int j=1 ;j<=(2*N)-1; j++){
-            for(j=N-i+1;j<=N+i-1;j+=2){
-                printf("%d ", i);
-    
-                }
-            // if(j!=N-(i-1)||j!=N+i-1){
-            //     printf(" ");
-            // }
+    int n,r,c;
+    scanf("%d",&n);
+    for(r=1; r<=n; r++){
+        for(c=1;c<=(n-r);c++){
+            printf(" ");
         }
-    
-        
-            printf("\n");
-        
-
+        for(c=1;c<=r;c++){
+            printf("%d ",c);
+        }
+        printf("\n");
     }
     return 0;
 
