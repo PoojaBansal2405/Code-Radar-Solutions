@@ -24,6 +24,6 @@ int main(){
             }
             visited[j]=1;
         }
-     printf("%d: %d",arr[k],count);
+     printf("%d %d",arr[k],count);
     }
 }
