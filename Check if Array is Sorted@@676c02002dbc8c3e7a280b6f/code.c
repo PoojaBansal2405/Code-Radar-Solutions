@@ -18,12 +18,10 @@ int main(){
 
         }
     }
-    if(n==0){
+    if(sorted){
+        if(n=1){
         printf("Sorted");
-    }
-    else if(sorted){
-        printf("Sorted");
-    }
+    }}
     else{
         printf("Not Sorted");
     }
