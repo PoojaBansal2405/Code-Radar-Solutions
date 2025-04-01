@@ -18,9 +18,11 @@ int main(){
         k--;
     }
     for(int j=0;j<n;j++){
+
         printf("%d ",arr[j]);
+        printf("\n");
     }
-    printf("\n");
+    
 }
         
     
