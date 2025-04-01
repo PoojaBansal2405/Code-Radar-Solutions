@@ -19,11 +19,12 @@ int main(){
 
         int count=1;
         for(int j=k+1;j< n;j++){
-            if(arr[k]==arr[j]){
+            if(arr[j]==arr[k]){
                 count++;
             }
             visited[j]=1;
-        }
+        
      printf("%d %d",arr[k],count);
+        }
     }
 }
