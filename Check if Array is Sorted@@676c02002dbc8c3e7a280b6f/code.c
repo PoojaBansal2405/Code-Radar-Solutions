@@ -21,7 +21,7 @@ int main(){
     if(arr[n]==0){
         printf("Sorted");
     }
-    else if(Sorted){
+    else if(sorted){
         printf("Sorted");
     }
     else{
