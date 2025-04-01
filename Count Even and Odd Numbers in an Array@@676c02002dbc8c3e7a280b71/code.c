@@ -13,7 +13,7 @@ int main(){
         counteven++;
         }
     
-    else{
+    else if(arr[i]%2!=0){
         countodd++;
     }
     }
