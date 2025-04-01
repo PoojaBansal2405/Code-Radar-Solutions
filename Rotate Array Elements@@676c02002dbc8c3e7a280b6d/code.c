@@ -17,8 +17,8 @@ int main(){
         temp=arr[0];
         k--;
     }
-    for(int m=0;m<n;m++){
-        printf("%d ",arr[m]);
+    for(int j=0;j<n;j++){
+        printf("%d ",arr[j]);
     }
 }
         
