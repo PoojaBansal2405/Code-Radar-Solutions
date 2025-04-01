@@ -10,12 +10,11 @@ int main(){
     int counteven=0;
     for(int i=0;i<n;i++){
         if(arr[i]%2==0){
-        counteven++;
+        counteven+=1;
         }
-    
-    else if(arr[i]%2!=0){
-        countodd++;
-    }
+       else if(arr[i]%2!=0){
+          countodd+=1;
+         }
     }
     printf("%d ",counteven,countodd);
 }
