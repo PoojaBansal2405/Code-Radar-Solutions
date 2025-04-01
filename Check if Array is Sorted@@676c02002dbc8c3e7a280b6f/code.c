@@ -18,10 +18,10 @@ int main(){
 
         }
     }
-    if(sorted){
+    if(arr[n]==0){
         printf("Sorted");
     }
-    else if(arr[n]==0){
+    else if(Sorted){
         printf("Sorted");
     }
     else{
