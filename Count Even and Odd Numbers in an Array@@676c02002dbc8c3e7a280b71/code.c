@@ -16,5 +16,5 @@ int main(){
           countodd+=1;
          }
     }
-    printf("%d ",counteven,countodd);
+    printf("%d %d ",counteven,countodd);
 }
