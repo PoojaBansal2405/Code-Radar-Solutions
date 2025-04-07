@@ -13,9 +13,7 @@ int main(){
         if(arr[i]%2==0 && arr[i]>largest){
             largest=arr[i];
         }
-        else if(arr[i]%2!=0 && arr[i]>largest){
-            largest=-1;
-        }
+        
     }
     printf("%d",largest);
 }
