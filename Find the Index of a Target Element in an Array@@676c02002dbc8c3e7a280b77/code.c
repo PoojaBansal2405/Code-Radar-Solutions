@@ -8,8 +8,9 @@ int main(){
     }
     int target;
     scanf("%d",&target);
-     int notfound=false;
+     
     for(int i=0;i<N;i++){
+        int notfound=false;
         if (arr[i]==target){
              printf("%d",i);
              break;
