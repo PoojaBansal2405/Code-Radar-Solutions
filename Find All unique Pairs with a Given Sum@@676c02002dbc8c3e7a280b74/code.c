@@ -2,7 +2,7 @@
 #include <limits.h>
 int main(){
     int N,i,j,t;
-    int count=0;
+    
      scanf("%d",&N);
    int arr[N];
     for(i=0;i<N;i++){
@@ -15,4 +15,7 @@ int main(){
         if(arr[i]+arr[j]==t){
             printf("%d %d\n",arr[i],arr[j]);
         }
-    }}}}
+    }
+    }
+    }
+    }
