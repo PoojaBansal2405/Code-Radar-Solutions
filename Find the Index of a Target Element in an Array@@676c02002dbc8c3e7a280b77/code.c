@@ -10,13 +10,13 @@ int main(){
     scanf("%d",&target);
      
     for(int i=0;i<N;i++){
-        notfound=false;
+        notfound=0;
         if (arr[i]==target){
              printf("%d",i);
              break;
         }
         else{
-            notfound=true;
+            notfound=1;
         }
     }
     if(notfound){
