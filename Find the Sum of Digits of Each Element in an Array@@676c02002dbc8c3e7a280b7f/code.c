@@ -17,6 +17,9 @@ int main(){
       sum[i]+=arr[i];
       arr[i]=arr[i]/10;
     }
+   
+    }
+    for(i=0;i<N;i++){
     printf("%d",sum[i]);
     }
-    }
+}
