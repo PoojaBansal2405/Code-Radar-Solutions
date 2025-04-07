@@ -13,4 +13,5 @@ int main(){
             largest=arr[i];
         }
     }
+    printf("%d",largest);
 }
