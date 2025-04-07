@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include <limits.h>
 int main(){
-    int N,i,t;
+    int N,i,j,t;
     int count=0;
      scanf("%d",&N);
    int arr[N];
