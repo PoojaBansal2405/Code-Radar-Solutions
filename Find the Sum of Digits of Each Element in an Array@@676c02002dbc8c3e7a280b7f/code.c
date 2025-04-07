@@ -20,6 +20,6 @@ int main(){
    
     }
     for(i=0;i<N;i++){
-    printf("%d",sum[i]);
+    printf("%d\n",sum[i]);
     }
 }
