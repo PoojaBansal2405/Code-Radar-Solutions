@@ -19,7 +19,7 @@ int main(){
         }
     }
     if(sorted){
-        printf("Sorted")
+        printf("Sorted");
         }
     else{
         printf("Not Sorted");
