@@ -6,11 +6,11 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int sorted=0;
+     sorted=0;
     for(int j=0;j<=n-1;j++){
         for(int k=0;k<n-1;k++){
             if(arr[k+1]>=arr[k]){
-            sorted=1;
+               sorted=1;
             }
             else{
                 sorted=0;
@@ -18,7 +18,7 @@ int main(){
 
         }
     }
-    if(sorted){
+    if(sorted==1){
         printf("Sorted");
         }
     else{
