@@ -9,7 +9,7 @@ int main(){
     int largest=arr[0];
     for(int j=1;j<n;j++){
         if(arr[j]>largest){
-            largest=arr[i];
+            largest=arr[j];
         }
     }
     int slargest=largest;
