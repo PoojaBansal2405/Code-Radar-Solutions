@@ -12,6 +12,6 @@ int main(){
     for(i=0;i<N;i++)
     for(j=1;j<N;j++){
         if(arr[i]+arr[i+j]==t){
-            printf("%d %d\n",arr[i],arr[j]);
+            printf("%d %d\n",arr[i],arr[i+j]);
         }
     }}
