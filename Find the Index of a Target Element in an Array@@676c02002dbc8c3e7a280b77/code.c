@@ -14,7 +14,7 @@ int main(){
              printf("%d",i);
              break;
         }
-        else if(!target){
+        else{
             printf("%d",-1);
         }
     }
