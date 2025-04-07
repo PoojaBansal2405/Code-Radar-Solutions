@@ -14,10 +14,10 @@ int main(){
         }
     }
    slargest=largest;
-    for(int j=1;j<n;j++){
+    for(int k=0;k<n;k++){
     
-        if(arr[j]>slargest && slargest<largest){
-            slargest=arr[j];
+        if(arr[k]>slargest && slargest<largest){
+            slargest=arr[k];
         }
     }
     if(n==1){
