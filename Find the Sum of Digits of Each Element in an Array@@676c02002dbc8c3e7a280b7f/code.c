@@ -13,7 +13,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(i=0;i<N;i++){
-        {
+        while(arr[i]>0){
       rem=arr[i]%10;
       sum[i]+=rem;
       arr[i]=arr[i]/10;
