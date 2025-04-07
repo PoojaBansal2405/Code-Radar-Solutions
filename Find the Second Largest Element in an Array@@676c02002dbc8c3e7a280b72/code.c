@@ -12,7 +12,7 @@ int main(){
         if(arr[j]>largest){
             largest=arr[j];
         }
-    }
+    
    slargest=largest;
    
     
