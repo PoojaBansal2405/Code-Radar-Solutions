@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
-    int N,i,sum[N]=0;
+    int N,i;
+    int sum[N]={0};
     
     
     scanf("%d",&N);
