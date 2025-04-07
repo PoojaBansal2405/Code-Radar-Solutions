@@ -11,10 +11,11 @@ int main(){
 
     for(int i=0;i<N;i++){
         if (arr[i]==target){
-            printf("%d",i);
+            int index=i;
         }
         else if(!target){
             printf("%d",-1);
         }
     }
+    printf("%d",index);
 }
