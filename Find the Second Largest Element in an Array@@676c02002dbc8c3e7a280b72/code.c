@@ -19,7 +19,7 @@ int main(){
         else if(arr[j]>slargest && slargest!=largest){
             slargest=arr[j];
         }
-    }
+    
     if(n==1){
         printf("%d",-1);
     }
