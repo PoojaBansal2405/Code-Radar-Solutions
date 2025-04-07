@@ -12,8 +12,9 @@ int main(){
         if(arr[j]>largest){
             largest=arr[j];
         }
-    
+    }
    slargest=largest;
+    for(int j=1;j<n;j++){
     
         if(arr[j]>slargest && slargest<largest){
             slargest=arr[j];
