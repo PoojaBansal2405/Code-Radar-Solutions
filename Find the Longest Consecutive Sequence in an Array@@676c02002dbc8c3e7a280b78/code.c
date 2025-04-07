@@ -8,12 +8,12 @@ int main(){
         scanf("%d",&arr[i]);
     }
      int smallest=arr[0];
-    for(i=1;i<n;i++){
+    for(i=1;i<N;i++){
         if(arr[i]<smallest){
             smallest=arr[i];
         }
          }
-     for(i=0;i<n;i++) {
+     for(i=0;i<N;i++) {
        if(smallest+1==arr[i]){
          count++;
          smallest+=1;
