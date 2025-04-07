@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int N,index;
+    int N,index,notfound;
     scanf("%d",&N);
     int arr[N];
     for(int i=0;i<N;i++){
@@ -10,7 +10,7 @@ int main(){
     scanf("%d",&target);
      
     for(int i=0;i<N;i++){
-        int notfound=false;
+        notfound=false;
         if (arr[i]==target){
              printf("%d",i);
              break;
