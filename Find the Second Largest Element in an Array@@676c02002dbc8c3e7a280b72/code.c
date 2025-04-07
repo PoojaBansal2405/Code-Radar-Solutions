@@ -15,7 +15,7 @@ int main(){
     
    slargest=largest;
     
-        if(arr[j]>slargest && arr[j]<largest){
+        if(arr[j]>largest && slargest<largest){
             slargest=arr[j];
         }
     }
