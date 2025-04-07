@@ -1,8 +1,10 @@
 #include<stdio.h>
 int main(){
     int N,i;
-    int sum[N]=0;
-    
+    int sum[N];
+    for(i=0;i<N;i++){
+        sum[i]=0;
+    }
     
     scanf("%d",&N);
     int arr[N];
