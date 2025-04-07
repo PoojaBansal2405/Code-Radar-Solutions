@@ -12,10 +12,10 @@ int main(){
             largest=arr[j];
         }
     }
-    int slargest=arr[0];
+    int slargest=largest;
     for(int k=1;k<n;k++){
-        if(arr[k]>slargest && slargest<largest){
-            slargest=arr[k];
+        if(arr[k]>largest && slargest<largest){
+            slargest=largest;
         }
     }
     if(n==1){
