@@ -11,7 +11,7 @@ int main(){
     {
         if(arr[i]==0){
             int index=l;
-            for(j=l;j<n;j++){
+            for(j=l;j<N;j++){
             arr[j]==arr[j+1];
             arr[N-1]=0;
         }
