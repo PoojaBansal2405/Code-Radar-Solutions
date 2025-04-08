@@ -8,7 +8,7 @@ int main(){
     }
      for(i=0;i<N;i++){
         for(j=1;j<N;j++){
-        if (arr[i]==arr[i+j]){
+        if (arr[i]==arr[i+1+j]){
           printf("%d",arr[i]);
           break;
         }
