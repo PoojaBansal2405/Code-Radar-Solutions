@@ -10,9 +10,10 @@ int main(){
     for(i=0;i<N;i++)
     {
         if(arr[i]==0){
-            temp=arr[i];
-            arr[i]==arr[i+1];
-            arr[N-1]=temp;
+            int index=l;
+            for(j=l;j<n;j++){
+            arr[j]==arr[j+1];
+            arr[N-1]=0;
         }
     }
     for(i=0;i<N;i++){
