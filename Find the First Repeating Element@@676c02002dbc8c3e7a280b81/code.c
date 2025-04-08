@@ -6,6 +6,7 @@ int main(){
     for(i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
+    int is=0;
      for(i=0;i<N;i++){
         for(j=i+1;j<N;j++)
         if (arr[i]==arr[j]){
@@ -14,7 +15,10 @@ int main(){
         }
          
          else{
-            printf("%d",-1);
+            is=1;
          }
+     }
+     if(is){
+        printf("%d",-1);
      }
      }
