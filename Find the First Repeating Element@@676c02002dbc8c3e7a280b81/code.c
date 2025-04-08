@@ -19,7 +19,7 @@ int main(){
             is=1;
          }
      }
-     if(is==1){
+     if(is){
         printf("%d",-1);
      }
      }
