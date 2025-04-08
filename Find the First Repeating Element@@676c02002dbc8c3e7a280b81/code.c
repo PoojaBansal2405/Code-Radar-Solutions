@@ -15,9 +15,10 @@ int main(){
           found=1;
           break;
         }
-       }
+       
      if(found){
         break;
+     }
      }
      else if(!found){
         printf("%d",-1);
