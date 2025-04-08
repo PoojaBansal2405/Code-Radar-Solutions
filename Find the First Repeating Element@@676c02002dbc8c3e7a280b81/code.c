@@ -20,7 +20,7 @@ int main(){
         break;
      }
      }
-     else if(!found){
+     else{
         printf("%d",-1);
      }
      }
