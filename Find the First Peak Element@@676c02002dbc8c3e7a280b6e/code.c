@@ -8,8 +8,9 @@ int main(){
     }
     if(arr[0]>arr[1]){
         printf("%d",arr[0]);
-        
+        break;
     }
+    
     
     for(i=1;i<N-1;i++){
     
