@@ -10,7 +10,7 @@ int main(){
         for(j=i+1;j<N;j++){
             if(arr[i]==arr[j]){
                 element=arr[i];
-             count+=1;
+             count++;
             }
         }}
     
