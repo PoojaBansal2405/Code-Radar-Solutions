@@ -13,12 +13,14 @@ int main(){
                 
              count++;
             }
-        }}
-    
-        if(count>(N/2)){
+        }
+         if(count>(N/2)){
             element=arr[i];
             break;
         }
+        }
+    
+       
         if(element!=-1){
             printf("%d",element);
         }
