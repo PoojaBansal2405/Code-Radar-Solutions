@@ -10,17 +10,17 @@ int main(){
         printf("%d",arr[0]);
         
     }
+    
     for(i=1;i<N-1;i++){
     
-    
     if(arr[i]>arr[i+1] && arr[i]>arr[i-1]){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
         break;
     }
     }
 
     if(arr[N-1]>arr[N-2]){
-        printf("%d",arr[N]);
+        printf("%d ",arr[N-1]);
         
     }
     
