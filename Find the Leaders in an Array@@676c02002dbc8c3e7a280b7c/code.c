@@ -13,6 +13,7 @@ int main(){
                 continue;
             }
         }
-        printf("%d ",element);
     }
+        printf("%d ",element);
+    
 }
