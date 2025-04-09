@@ -16,7 +16,7 @@ int main(){
             }
         else if(arr[i]%j!=0){
             count++;
-            i++
+            i++;
 
         }
     }
