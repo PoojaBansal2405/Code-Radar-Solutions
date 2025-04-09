@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int N,i;
+    int N,i,j;
     int count=0;
     
     scanf("%d",&N);
@@ -9,9 +9,12 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<N;i++){
-        if(arr[i]%i==0){
+        for(int j=2;j<arr[i];j++){
+        if(arr[i]%j!=0){
             count++;
+            
         }
     }
     printf("%d",count);
+}
 }
