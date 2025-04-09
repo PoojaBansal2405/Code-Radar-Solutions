@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,i,j,element,result;
+    int n,i,j,element,result=0;
     scanf("%d",&n);
     int arr[n];
     for(i=0;i<n;i++){
@@ -20,13 +20,16 @@ int main(){
                 arr[j]=element;
             }
             else if(arr[i]==arr[j]){
-                result=-1;
+                result=1;
             }
 
         }
 }
 
     printf("%d",arr[n-2]);
-    printf("%d",result);
+    if(result){
+        printf("-1");
+    }
+    
 
 }
