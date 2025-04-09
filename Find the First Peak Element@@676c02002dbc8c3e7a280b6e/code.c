@@ -8,11 +8,11 @@ int main(){
     }
     if(arr[0]>arr[1]){
         printf("%d",arr[0]);
-        break;
+        exit(0);
     }
     
     
-    for(i=1;i<N-1;i++){
+    for(i=1;i<N-1;i++ ){
     
     if(arr[i]>arr[i+1] && arr[i]>arr[i-1]){
         printf("%d ",arr[i]);
@@ -22,6 +22,7 @@ int main(){
 
     if(arr[N-1]>arr[N-2]){
         printf("%d ",arr[N-1]);
+        exit(0);
         
     }
     
