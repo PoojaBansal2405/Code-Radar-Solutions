@@ -13,12 +13,12 @@ int main(){
              count++;
             }
         }
-    }
+    
         if(count>N/2){
             printf("%d",element);
         }
         else{
             printf("%d",-1);
         }
-    
+    }
 }
