@@ -29,7 +29,7 @@ int main(){
     if(!result){
     printf("%d",arr[n-2]);
     }
-    if(result){
+    else if(result){
         printf("-1");
     }
     
