@@ -12,7 +12,7 @@ int main(){
         for(int j=2;j<arr[i];j++){
             if(arr[i]==2){
                 count++;
-                i++;
+                break;
             }
         else if(arr[i]%j!=0){
             
