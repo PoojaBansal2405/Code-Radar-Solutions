@@ -7,18 +7,19 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<N;i++){
-    count=0;
-    
         for(j=i+1;j<N;j++){
             if(arr[i]==arr[j]){
-                element=arr[i];
+                
              count++;
             }
         }}
     
         if(count>(N/2)){
-            printf("%d",element);
+            element=arr[i];
+            break;
         }
+
+
         else{
             printf("%d",-1);
         }
