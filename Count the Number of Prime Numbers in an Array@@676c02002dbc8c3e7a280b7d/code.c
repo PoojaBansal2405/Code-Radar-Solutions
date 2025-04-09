@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int N,i,j;
-    int count=N;
+    int count=0;
     
     scanf("%d",&N);
     int arr[N];
@@ -11,12 +11,12 @@ int main(){
     for(i=0;i<N;i++){
         for(j=2;j<arr[i];j++){
             if(arr[i]==2){
-                count--;
+                count++;
         
             }
         else if(arr[i]%j==0){
             
-            count--;
+            count++;
             break;
         
          }
