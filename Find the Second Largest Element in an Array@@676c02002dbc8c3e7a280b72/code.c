@@ -7,14 +7,16 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    if(n==2){
-        printf("-1");
-    }
+   
 
 
     for(i=0;i<n;i++){
         for(j=i+1;j<n;j++){
-            if(arr[i]>arr[j]){
+             if(n==2){
+        printf("-1");
+        break;
+    }
+            else if(arr[i]>arr[j]){
                 element=arr[i];
                 arr[i]=arr[j];
                 arr[j]=element;
