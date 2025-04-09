@@ -7,6 +7,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<N;i++){
+        count=0;
         for(j=i+1;j<N;j++){
             if(arr[i]==arr[j]){
                 
@@ -17,6 +18,9 @@ int main(){
         if(count>(N/2)){
             element=arr[i];
             break;
+        }
+        if(element!=-1){
+            printf("%d",element);
         }
 
 
