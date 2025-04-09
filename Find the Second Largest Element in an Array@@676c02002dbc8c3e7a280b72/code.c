@@ -19,10 +19,11 @@ int main(){
                 arr[i]=arr[j];
                 arr[j]=element;
             }
-        }
+        
             else if(arr[i]==arr[j]){
                 result=1;
             }
+        }
 
         
 }
