@@ -14,7 +14,7 @@ int main(){
             }
         }}
     
-        if(count>(N/2)+1){
+        if(count>(N/2)){
             printf("%d",element);
         }
         else{
