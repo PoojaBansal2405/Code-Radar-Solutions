@@ -17,6 +17,15 @@ int main(){
       rem=arr[i]%10;
       sum[i]+=rem;
       arr[i]=arr[i]/10;
+
+      if(arr[i]<0){
+        arr[i]=arr[i]+arr[i]*(-2);
+         while(arr[i]>0){
+      rem=arr[i]%10;
+      sum[i]+=rem;
+      arr[i]=arr[i]/10;
+
+      }
     }
    
     }
