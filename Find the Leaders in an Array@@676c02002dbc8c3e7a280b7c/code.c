@@ -10,7 +10,7 @@ int main(){
         for(j=i+1;j<n;j++){
             if(arr[i]>=arr[j]){
                 element=arr[i];
-                break;
+                continue;
             }
         }
         printf("%d ",element);
