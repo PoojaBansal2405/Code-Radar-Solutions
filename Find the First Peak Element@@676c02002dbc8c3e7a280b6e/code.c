@@ -13,7 +13,7 @@ int main(){
     for(i=1;i<N-1;i++){
     
     
-    else if(arr[i]>arr[i+1] && arr[i]>arr[i-1]){
+    if(arr[i]>arr[i+1] && arr[i]>arr[i-1]){
         printf("%d",arr[i]);
         break;
     }
