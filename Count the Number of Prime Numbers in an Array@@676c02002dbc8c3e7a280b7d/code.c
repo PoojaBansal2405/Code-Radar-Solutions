@@ -15,10 +15,12 @@ int main(){
                 i++;
             }
         else if(arr[i]%j!=0){
+            
             count++;
-            i++;
-
-        }
+            break;
+        
+         }
+         
     }
     }
     printf("%d",count);
