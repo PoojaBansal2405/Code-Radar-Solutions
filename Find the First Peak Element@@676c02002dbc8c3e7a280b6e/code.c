@@ -17,7 +17,7 @@ int main(){
         break;
     }
 
-    else if(arr[N-1]>arr[N-2]){
+    if(arr[N-1]>arr[N-2]){
         printf("%d",arr[N]);
         break;
     }
