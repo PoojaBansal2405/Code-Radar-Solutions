@@ -1,11 +1,16 @@
 #include<stdio.h>
 int main(){
-    int n,i,j,element;
+    int n,i,j,element,result;
     scanf("%d",&n);
     int arr[n];
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+
+    if(n==2){
+        printf("-1");
+    }
+
 
     for(i=0;i<n;i++){
         for(j=i+1;j<n;j++){
@@ -14,10 +19,14 @@ int main(){
                 arr[i]=arr[j];
                 arr[j]=element;
             }
+            else if(arr[i]==arr[j]){
+                result=-1;
+            }
 
         }
 }
 
     printf("%d",arr[n-2]);
+    printf("%d",result);
 
 }
