@@ -12,12 +12,12 @@ int main(){
         break;
     }
     
-    if(arr[i]>arr[i+1] && arr[i]>arr[i-1]){
+    else if(arr[i]>arr[i+1] && arr[i]>arr[i-1]){
         printf("%d",arr[i]);
         break;
     }
 
-    if(arr[N-1]>arr[N-2]){
+    else if(arr[N-1]>arr[N-2]){
         printf("%d",arr[N]);
         break;
     }
