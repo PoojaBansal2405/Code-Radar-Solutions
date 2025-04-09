@@ -10,7 +10,10 @@ int main(){
     }
     for(int i=0;i<N;i++){
         for(int j=2;j<arr[i];j++){
-        if(arr[i]%j!=0){
+            if(arr[i]==2){
+                count++;
+            }
+        else if(arr[i]%j!=0){
             count++;
 
         }
