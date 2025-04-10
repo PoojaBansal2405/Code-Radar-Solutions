@@ -13,8 +13,8 @@ int main(){
 largest=freq[0];
 for(i=0;i<100;i++){
     if(freq[i]>largest){
-        sol=freq[i];
+        sol=i;
     }
 }
-printf("%d",i);
+printf("%d",sol);
 }
