@@ -33,6 +33,10 @@ int main(){
         break;
     }   
     }
+    else{
+        peak=-1;
+    }
+    
 
     
 }
