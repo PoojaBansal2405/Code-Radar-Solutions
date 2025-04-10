@@ -13,7 +13,7 @@ int main(){
 largest=arr[0];
 for(i=0;i<100;i++){
     if(arr[i]>largest){
-        sol=freq[i];
+        sol=freq[arr[i]];
     }
 }
 printf("%d",sol);
