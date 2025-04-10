@@ -1,39 +1,24 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(){
-    int n,i,j,element,result=0;
+    int n,i;
     scanf("%d",&n);
     int arr[n];
     for(i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+    scanf("%d",&arr[i]);
     }
 
-   
-
-
+    int largest=-1e9,slargest=-1e9;
     for(i=0;i<n;i++){
-        for(j=i+1;j<n;j++){
-             
-        
-            if(arr[i]>arr[j]){
-                element=arr[i];
-                arr[i]=arr[j];
-                arr[j]=element;
-            }
-        
-            else if(arr[i]==arr[j]){
-                result=1;
-            }
+        if(arr[i]>largest){
+            largest=arr[i];
         }
-
-        
-}
-
-    if(!result){
-    printf("%d",arr[n-2]);
+        else if(arr[i]>slargest && arr[i]<largest){
+            slargest=arr[i];
+        }
     }
-    else if(result){
+    if(slargest==-1e9){
         printf("-1");
     }
-    
-
-}
+    else{
+        printf("%d",slargest);
+    }
