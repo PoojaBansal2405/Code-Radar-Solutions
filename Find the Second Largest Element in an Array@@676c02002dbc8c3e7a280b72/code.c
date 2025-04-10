@@ -10,6 +10,7 @@ int main(){
     int largest=-1e9,slargest=-1e9;
     for(i=0;i<n;i++){
         if(arr[i]>largest){
+            slargest=largest;
             largest=arr[i];
         }
         else if(arr[i]>slargest && arr[i]<largest){
