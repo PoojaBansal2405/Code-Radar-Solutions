@@ -9,7 +9,7 @@ int main(){
     for(i=0;i<n;i++){
         for(j=i+1;j<n;j++){
             if(arr[i]>=arr[j]){
-                element=arr[i];
+                 printf("%d ",element); 
             }
             
         }
@@ -17,6 +17,6 @@ int main(){
     if(n==1){
         printf("%d ",arr[0]);
     }
-    printf("%d ",element);
+   
     printf("%d",arr[n-1]);
 }
