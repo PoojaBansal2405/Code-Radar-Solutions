@@ -8,7 +8,7 @@ int main(){
     }
      int sorted=0;
     for(int j=0;j<n;j++){
-        for(int k=0;k<n;k++){
+        for(int k=0;k<n-1;k++){
             if(arr[k+1]>=arr[k]){
                sorted=1;
             }
