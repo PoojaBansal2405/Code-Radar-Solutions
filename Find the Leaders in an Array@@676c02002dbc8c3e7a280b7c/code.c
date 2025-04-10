@@ -10,11 +10,13 @@ int main(){
         for(j=i+1;j<n;j++){
             if(arr[i]>=arr[j]){
                 element=arr[i];
-                
             }
             
         }
     }
-        
+    if(n==1){
+        printf("%d",arr[0]);
+    }
     printf("%d",element);
+    printf("%d",arr[n-1]);
 }
