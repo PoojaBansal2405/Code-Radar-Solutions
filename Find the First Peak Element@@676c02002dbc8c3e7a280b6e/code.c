@@ -10,7 +10,7 @@ int main(){
     }
     if(arr[0]>arr[1]){
         printf("%d",arr[0]);
-        
+        break;
     }
     
     
@@ -25,7 +25,7 @@ int main(){
 
     if(arr[N-1]>arr[N-2]){
         printf("%d ",arr[N-1]);
-        
+        break;
         
     }
     
