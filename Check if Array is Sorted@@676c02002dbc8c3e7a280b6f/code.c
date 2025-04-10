@@ -7,8 +7,8 @@ int main(){
         scanf("%d",&arr[i]);
     }
      int sorted=0;
-    for(int j=0;j<=n-1;j++){
-        for(int k=0;k<n-1;k++){
+    for(int j=0;j<n;j++){
+        for(int k=0;k<n;k++){
             if(arr[k+1]>=arr[k]){
                sorted=1;
             }
