@@ -15,8 +15,8 @@ int main(){
         }
     }
     if(n==1){
-        printf("%d",arr[0]);
+        printf("%d ",arr[0]);
     }
-    printf("%d",element);
+    printf("%d ",element);
     printf("%d",arr[n-1]);
 }
