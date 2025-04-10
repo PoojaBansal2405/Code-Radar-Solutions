@@ -22,3 +22,4 @@ int main(){
     else{
         printf("%d",slargest);
     }
+}
