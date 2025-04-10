@@ -13,6 +13,7 @@ int main(){
 largest=0;i=-1;
 for(i=0;i<100;i++){
     if(freq[i]>largest){
+        largest=freq[i];
         sol=i;
     }
 }
