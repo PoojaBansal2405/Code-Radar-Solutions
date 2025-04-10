@@ -10,23 +10,27 @@ int main(){
     }
     if(arr[0]>arr[1]){
         printf("%d",arr[0]);
-        break;
+        
     }
     
     
-    for(i=1;i<N-1;i++ ){
-    
+    for(i=0;i<=N-1;i++ ){
+    if(i==0){
+         if(arr[0]>arr[1]){
+        printf("%d",arr[0]);
+     }
+    }
+    if(i>0 && i<n-1)
     if(arr[i]>arr[i+1] && arr[i]>arr[i-1]){
        element=arr[i];
         break;
-        
     }
-    }
-
+    
+    if(i==n-1){
     if(arr[N-1]>arr[N-2]){
         printf("%d ",arr[N-1]);
-        break;
         
+    }   
     }
     
 }
