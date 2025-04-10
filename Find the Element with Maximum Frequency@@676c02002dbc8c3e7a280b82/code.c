@@ -10,7 +10,7 @@ int main(){
     for(i=0;i<n;i++){
         freq[arr[i]]++;
     }
-largest=arr[0];
+largest=freq[0];
 for(i=0;i<100;i++){
     if(freq[i]>largest){
         sol=freq[i];
