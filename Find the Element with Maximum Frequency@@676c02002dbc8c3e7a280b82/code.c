@@ -16,5 +16,5 @@ for(i=0;i<100;i++){
         sol=freq[i];
     }
 }
-printf("%d",sol);
+printf("%d",i);
 }
