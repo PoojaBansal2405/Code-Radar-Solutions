@@ -14,6 +14,7 @@ int main(){
             }
             else{
                 sorted=0;
+                break;
             }
 
         }
