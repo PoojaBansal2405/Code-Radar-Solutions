@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,i,largest;
+    int n,i,largest,sol;
     scanf("%d",&n);
     int arr[n];
     for(i=0;i<n;i++){
@@ -13,7 +13,8 @@ int main(){
 largest=arr[0];
 for(i=0;i<100;i++){
     if(arr[i]>largest){
-        printf("%d",freq[i]);
+        sol=freq[i];
     }
 }
+printf("%d",sol);
 }
