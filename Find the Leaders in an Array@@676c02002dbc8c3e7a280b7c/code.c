@@ -12,7 +12,7 @@ int main(){
                 element=arr[i];
                 
             }
-            printf("%d ",element);
+            
         }
     }
         
